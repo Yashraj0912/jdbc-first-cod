@@ -1,0 +1,13 @@
+---- create database school;
+---- use school;
+---- create table student (
+---- id integer primary key,
+---- name varchar(20) not null ,
+---- age integer not null,
+---- marks float not null
+---- );
+---- insert into student(id , name , age , marks )
+---- values(1, "yash" , 21, 99.98),
+---- (2 , "anushka" , 20 , 95.09),
+---- (3, "tanu" , 21, 89.00);
+--select * from student;
